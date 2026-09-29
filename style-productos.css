@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: rgb(113, 113, 235);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    color:white;
+    margin:30px;
+}

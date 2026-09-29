@@ -1,6 +1,6 @@
 body{
     margin: 0;
-     background-color:rgb(105, 105, 223) ;
+     background-color:rgb(94, 94, 202) ;
 }
 header{
     background-color: rgb(113, 113, 235);
@@ -15,7 +15,7 @@ a{
 }
 .hero{
     height: 100px;
-    background-color: rgb(105, 105, 223);
+    background-color: rgb(94, 94, 202);
     text-align: center;
     padding-top: 20px;
     color:white;
@@ -29,4 +29,24 @@ a{
 }
 .presentacion h1{
     font-size:25px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+    margin: 0 auto;
+    gap: 4px;
+}
+section{
+    text-align: center;
+    color: white;
+}
+
+footer{
+    background-color: rgb(113, 113, 235);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

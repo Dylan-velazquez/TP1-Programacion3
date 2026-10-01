@@ -127,9 +127,17 @@ footer{
         gap: 10px;
      }
      .cuadro{
-        width: 90%;
+        width: 100%;
         padding: 20px;
+        margin: 0 auto;
      }
+     .cuadro input,
+     .cuadro textarea{
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box; 
+    }
      form{
         width: 100%;
      }
